@@ -1,0 +1,72 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+};
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  
+  h1{
+      text-align: center;
+      font-size: 2.5rem;
+      font-family: Russo One, Arial;
+      font-weight: none;
+      letter-spacing: 3px;
+      margin-bottom: 50px;
+  }
+
+  .question{
+    list-style-type: none;
+    padding:  30px;
+    min-width : 400px;
+    width: 700px;
+    max-width: 800px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    li{
+      margin: 10px;
+      font-size: 1.2rem;
+    }
+  }
+
+  #btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 200px;
+    height : 80px;
+    font-size: 1.4rem;
+  }
+
+  .resultats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 200px;
+    width: 400px;
+    margin: 40px auto;
+    padding: 10px;
+
+    h2{
+      font-size: 1.2rem;
+      margin: 20px;
+    }
+
+    p{
+      margin: 10px;
+      &:nth-of-type(2){
+        font-size: 1.5rem;
+      }
+    }
+  }
+};

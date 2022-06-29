@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz JS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Quizz Culture générale !</h1>
+
+    <form class="formulaire">
+        <div class="question">
+            <h2>Qui est l'empereur de France le 2 décembre 1804 ?</h2></br>
+
+            <li><input type="radio" id="clovis" value="rep1" name="grp1" checked>
+                <label for="clovis"> Clovis </label></li>
+
+            <li><input type="radio" id="lincoln" value="rep2" name="grp1">
+                <label for="lincoln"> Abraham Lincoln </label></li>
+
+            <li><input type="radio" id="napoleon" value="rep3" name="grp1">
+                <label for="napoleon"> Napoleon Bonaparte </label></li>
+        </div>
+
+        <div class="question">
+            <h2>Quelle est la date d'indépendance des États-Unis ?</h2></br>
+
+            <li><input type="radio" id="juillet" value="rep4" name="grp2" checked>
+                <label for="juillet"> 4 juillet 1776 </label></li>
+
+            <li><input type="radio" id="avril" value="rep5" name="grp2">
+                <label for="avril"> 18 avril 1856 </label></li>
+
+            <li><input type="radio" id="juin" value="rep6" name="grp2">
+                <label for="juin""> 30 juin 1925 </label></li>
+        </div>
+
+        <div class=" question">
+                    <h2>La chute de l'empire Romain se situe en ?</h2></br>
+
+            <li><input type="radio" id="15" value="rep7" name="grp3" checked>
+                <label for="15"> 15 ap. J.-C.</label></li>
+
+            <li><input type="radio" id="395" value="rep8" name="grp3">
+                <label for="395"> 395 ap. J.-C. </label></li>
+
+            <li><input type="radio" id="740" value="rep9" name="grp3">
+                <label for="740"> -740 av. J.-C. </label></li>
+        </div>
+
+        <div class="question">
+            <h2>Quelle est la capitale de la Slovénie ?</h2></br>
+
+            <li><input type="radio" id="ljubljana" value="rep10" name="grp4" checked>
+                <label for="ljubljana"> Ljubljana</label></li>
+
+            <li><input type="radio" id="belgrade" value="rep11" name="grp4">
+                <label for="belgrade"> Belgrade </label></li>
+
+            <li><input type="radio" id="bratislava" value="rep12" name="grp4">
+                <label for="bratislava"> Bratislava </label></li>
+        </div>
+
+        <div class="question">
+            <h2>Combien d'habitants compte l'Irlande en 2020 ?</h2></br>
+
+            <li><input type="radio" id="13" value="rep13" name="grp5" checked>
+                <label for="13">1,365 Million</label></li>
+
+            <li><input type="radio" id="14" value="rep14" name="grp5">
+                <label for="14"> 21 Millions </label></li>
+
+            <li><input type="radio" id="15" value="rep15" name="grp5">
+                <label for="15"> 4,9 Millions </label></li>
+        </div>
+        <button type="submit" value="Valider" id="btn"> Valider </button>
+    </form>
+
+    <div class="resultats">
+        <h2>Cliquez sur valider pour voir les résultats.</h2>
+        <p class="aide"></p>
+        <p class="note"></p>
+    </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

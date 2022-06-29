@@ -1,0 +1,98 @@
+*, ::before, ::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: Russo One, Arial;
+  font-weight: none;
+  letter-spacing: 3px;
+  margin-bottom: 50px;
+}
+
+body .question {
+  list-style-type: none;
+  padding: 30px;
+  min-width: 400px;
+  width: 700px;
+  max-width: 800px;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 30px auto;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+body .question li {
+  margin: 10px;
+  font-size: 1.2rem;
+}
+
+body #btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  width: 200px;
+  height: 80px;
+  font-size: 1.4rem;
+}
+
+body .resultats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10px;
+  text-align: center;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 200px;
+  width: 400px;
+  margin: 40px auto;
+  padding: 10px;
+}
+
+body .resultats h2 {
+  font-size: 1.2rem;
+  margin: 20px;
+}
+
+body .resultats p {
+  margin: 10px;
+}
+
+body .resultats p:nth-of-type(2) {
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=style.css.map */
